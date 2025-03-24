@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+fieldset{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+div.form-group{
+    padding: 10px;
+    border-bottom: 1px solid pink;
+}
+
+div.form-group label{
+    color: #9a6;
+    width: 100px;
+    display: inline-block;
+}
+
+div.form-group input,select,textarea{
+    width: 70%;
+}
+
+div.form-group input[type=radio]{
+    width: 5%;
+}
+
+div.form-group input[type=checkbox]{
+    width: 5%;
+}
+
+
+div.form-group.btn input{
+    width: 20%;
+    border:none;
+    padding: 5px 0;
+}
+
+div.form-group.btn input[type=submit]{
+    background-color: rgb(212, 187, 94);
+    color:white;
+}
+
+
+div.form-group.btn input[type=reset]{
+    background-color: rgb(205, 38, 38);
+    color:white;
+}
+
+div.form-group:last-child{
+    border-bottom: none;
+}
+
+div.form-group:nth-child(3n){
+    background-color: aliceblue;
+}
+
+div.form-group:nth-child(3n+1){
+    background-color: rgb(39, 67, 93);
+}
+
+div.form-group:nth-child(3n+2){
+    background-color: rgb(245, 246, 247);
+}
